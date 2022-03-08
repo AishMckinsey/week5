@@ -1,0 +1,42 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+h1{
+    margin: 0;
+    padding-top: 30px;
+}
+header{
+    background-color: aqua;
+    color:white;  
+    text-align: center;
+}
+header nav{
+    background-color: black;
+}
+header nav ul{
+    display : flex;
+    list-style-type: none;
+}
+li{
+    margin:10px;
+}
+
+main{
+    display: flex;
+}
+.about-me{
+    width: 40%;
+    background-color: bisque;
+}
+
+@media screen and (max-width: 700px){
+    main{
+        
+    }
+    .about-me{
+        width: 100%;
+    }
+    
+}
