@@ -13,4 +13,6 @@ const DisplaySubTask = (props) => {
     );
 };
 
+
+// always use caps 
 export default DisplaySubTask;
